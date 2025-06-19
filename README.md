@@ -14,7 +14,6 @@ Generates context-aware, compliance-focused answers using a Large Language Model
 
 Applies guardrails and collects user feedback for continuous improvement.
 
-The architecture follows industry best practices and is mapped to the diagram below:
 
 ![RAG Architecture️ Data
 
@@ -58,13 +57,12 @@ Collects feedback for future model improvement (LoRA/QLoRA fine-tuning supported
 🚀 Getting Started
 1. Clone the repository
 bash
-git clone https://github.com/[your-username]/clush_rag_project.git
-cd clush_rag_project
+git clone
 2. Install dependencies
 bash
 pip install -r requirements.txt
 3. Add the dataset
-Place gwajeyong_weonceondeiteo-1.json in the project root.
+Place gwajeyong_weonceondeiteo-1.json.
 
 4. Run the main pipeline
 bash
@@ -72,19 +70,5 @@ python main.py
 5. (Optional) Fine-tune the LLM
 See finetune_mistral.py for instructions.
 
-📝 File Structure
-File/Folder       	    Description
-main.py	                Orchestrates the full RAG workflow
-data_ingest.py	        Data loading and preprocessing
-embedding.py	          Text embedding module
-vector_db.py	          Vector DB and retrieval logic
-retrieval.py	          Query-to-context retrieval
-prompt_processing.py	  Prompt construction for LLM
-llm_inference.py	LLM   (Mistral 7B) response generation
-guardrail.py	          Output filtering/validation
-postprocess.py	        Final output formatting
-feedback.py	            User feedback collection
-finetune_mistral.py    	Fine-tuning script for LLM
 
-gwajeyong_weonceondeiteo-1.json	   Raw compliance data
-requirements.txt	                 Python dependencies
+
