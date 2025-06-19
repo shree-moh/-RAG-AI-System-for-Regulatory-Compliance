@@ -1,0 +1,9 @@
+langchain
+sentence-transformers
+faiss-cpu
+transformers
+torch
+peft
+datasets
+gradio
+chromadb
